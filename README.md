@@ -1,4 +1,4 @@
-# AOESpy (Still Updating)
+# AOESpy
 AOESpy (v1)
 Author@ Abdullah al Fahad 
 (afahad@gmu.edu)
@@ -6,6 +6,7 @@ http://afahadabdullah.com
 
 # Dependency Library:
 
+python 3+
 Numpy
 Scipy
 mpl_toolkits.basemap
