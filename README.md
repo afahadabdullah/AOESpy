@@ -1,4 +1,4 @@
-# climatepy (Still Updating)
+# AOESpy (Still Updating)
 Python library for basic climate data handling 
 
 #author: Abdullah al Fahad (afahad@gmu.edu)
