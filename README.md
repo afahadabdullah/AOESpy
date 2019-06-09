@@ -4,19 +4,21 @@ Author@ Abdullah al Fahad
 (afahad@gmu.edu)
 http://afahadabdullah.com
 
-Dependency Library:
+# Dependency Library:
 
 Numpy
 Scipy
 mpl_toolkits.basemap
 Matplotlib
-netCDF4 
+netCDF4
 
 
-Function:
+# Function:
 
 ### Other handly functions ###
-# d(): displays plot based on matplotlib.pyplot
+
+# d(): 
+	displays plot based on matplotlib.pyplot
 
 # shiftgrid:
 	dataout, newlon= shiftgrid(lon0, datain, lonsin, start=True, cyclic=360.0)
