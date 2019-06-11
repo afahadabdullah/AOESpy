@@ -17,7 +17,7 @@ netCDF4
 
 from terminal:
 
-	> cd /homes/afahad/ #user your setup directory here
+	> cd /homes/afahad/ #use your setup directory here
 	> wget https://github.com/afahadabdullah/AOESpy/archive/master.zip
 	> unzip master.zip
 	> cd AOESpy-master
