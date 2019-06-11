@@ -15,10 +15,9 @@ netCDF4
 
 # Setup
 
-##setup_directory=[use your setup directory here. i.e. '/homes/afahad/']
-
 from terminal:
 
+	> cd /homes/afahad/ #user your setup directory here
 	> wget https://github.com/afahadabdullah/AOESpy/archive/master.zip
 	> unzip master.zip
 	> cd AOESpy-master
