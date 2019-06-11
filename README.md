@@ -13,7 +13,31 @@ mpl_toolkits.basemap
 Matplotlib
 netCDF4
 
-### Function:
+# Setup
+
+##setup_directory=[use your setup directory here. i.e. '/homes/afahad/']
+
+from terminal:
+	> wget https://github.com/afahadabdullah/AOESpy/archive/master.zip
+	> unzip master.zip
+	> cd AOESpy-master
+##list the directory to see if all 3 files are present
+
+	> ls 
+	aoespy.py  README.md  setup.sh
+
+# Load function
+##In ipython IDLE 3.0+ (Spyder, Jupyter Notebook.  ...... or the good ol' ipython terminal)
+	
+	wdir="/homes/afahad/"
+	import os
+	os.chdir("/homes/afahad/AOESpy-master/")
+	import aoespy as ap
+	os.chdir(wdir)
+	
+	.
+	..
+	...
 
 ## Read netcdf data: rnc
 
