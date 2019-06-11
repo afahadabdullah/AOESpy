@@ -18,9 +18,11 @@ netCDF4
 ##setup_directory=[use your setup directory here. i.e. '/homes/afahad/']
 
 from terminal:
+
 	> wget https://github.com/afahadabdullah/AOESpy/archive/master.zip
 	> unzip master.zip
 	> cd AOESpy-master
+
 ##list the directory to see if all 3 files are present
 
 	> ls 
@@ -38,6 +40,8 @@ from terminal:
 	.
 	..
 	...
+
+# Functions
 
 ## Read netcdf data: rnc
 
