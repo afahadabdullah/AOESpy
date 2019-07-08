@@ -4,6 +4,8 @@ Author@ Abdullah al Fahad
 (afahad@gmu.edu)
 http://afahadabdullah.com
 
+# AOESpy Tutorial: https://www.afahadabdullah.com/blog/python-tutorial
+
 # Dependency Library:
 
 python 3+
