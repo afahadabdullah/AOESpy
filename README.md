@@ -5,6 +5,8 @@ Author@ Abdullah al Fahad
 http://afahadabdullah.com
 
 # AOESpy Tutorial: https://www.afahadabdullah.com/blog/python-tutorial
+# Please Fill up the form to get future AOESpy and Python for climate science updates
+https://docs.google.com/forms/d/e/1FAIpQLSeMGsFau4Upuy096Qsg89gIEdMJWb-LoXj2TJsypdBO5dCYyg/viewform
 
 # Dependency Library:
 
