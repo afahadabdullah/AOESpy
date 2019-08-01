@@ -136,12 +136,22 @@ def plot(var,lon,lat,title='',clf=[],cl=[], cmap='coolwarm',lon1=-180,lon2=180,l
                 lon1=0
                 lon2=360
 
+    if lon1== -180:
+        if lon2==180:
+            if lat1==-90:
+                if lat2==90:
+                    lon1=nanmin(lon)
+                    lon2=nanmax(lon)
+                    lat1=nanmin(lat)
+                    lat2=nanmax(lat)
+
+
     map = Basemap(projection='cyl',llcrnrlat=lat1,urcrnrlat=lat2,\
                 llcrnrlon=lon1,urcrnrlon=lon2,resolution='l')
 
     map.drawcoastlines(linewidth=.6,)
-    parallels = arange(lat1,lat2+1,30.) 
-    meridians = arange(lon1,lon2,60.)
+    parallels = arange(lat1,lat2+1, (lat2-lat1)//6) 
+    meridians = arange(lon1,lon2,(lon2-lon1)//6)
 
     if lmask==1:
         map.fillcontinents(color='white', lake_color='white', ax=None, zorder=None, alpha=None)
