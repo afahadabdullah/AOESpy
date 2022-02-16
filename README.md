@@ -4,6 +4,11 @@ Author@ Abdullah al Fahad
 (afahad@gmu.edu)
 http://afahadabdullah.com
 
+Cite as:
+Abdullah Al Fahad. (2022). afahadabdullah/AOESpy: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.6100762
+
+
+
 # AOESpy Tutorial: https://www.afahadabdullah.com/blog/python-tutorial
 # Please Fill up the form to get future AOESpy and Python for climate science updates
 https://docs.google.com/forms/d/e/1FAIpQLSeMGsFau4Upuy096Qsg89gIEdMJWb-LoXj2TJsypdBO5dCYyg/viewform
